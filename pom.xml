@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.futureborders</groupId>
-	<artifactId>quickstart-fb-java-frontend</artifactId>
+	<artifactId>REPLACE_ME_APP_NAME</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<parent>
