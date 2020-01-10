@@ -3,10 +3,10 @@ pipeline {
     label "jenkins-maven-java11"
   }
   environment {
-    ORG = 'painyjames'
+    ORG = 'REPLACE_ME_ORG'
     APP_NAME = 'REPLACE_ME_APP_NAME'
     CHARTMUSEUM_CREDS = credentials('jenkins-x-chartmuseum')
-    DOCKER_REGISTRY_ORG = 'painyjames'
+    DOCKER_REGISTRY_ORG = 'REPLACE_ME_ORG'
   }
   stages {
     stage('CI Build and push snapshot') {
