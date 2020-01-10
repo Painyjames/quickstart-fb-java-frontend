@@ -14,7 +14,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-	<name>quickstart-fb-java-frontend</name>
+	<name>REPLACE_ME_APP_NAME</name>
 	<description>Frontend java app for Future Borders</description>
 
 	<properties>
