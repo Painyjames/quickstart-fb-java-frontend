@@ -20,6 +20,10 @@ pipeline {
       }
       steps {
         container('maven') {
+          sh "which apt || true"
+          sh "which yum || true"
+          sh "uname -a || true"
+          sh "compgen -c || true"
           sh "mvn versions:set -DnewVersion=$PREVIEW_VERSION"
           sh "mvn install"
           sh "skaffold version"
